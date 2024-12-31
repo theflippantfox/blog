@@ -1,8 +1,8 @@
 <script lang="ts">
 	import '../app.css';
 	let { children } = $props();
-
-	export const prerender = true;
 </script>
 
-{@render children()}
+<div class="h-full w-full">
+	{@render children()}
+</div>

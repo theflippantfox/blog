@@ -2,7 +2,7 @@
 	const welcome = 'Hello, World!';
 </script>
 
-<div>
+<div class="h-full bg-blue-300">
 	{welcome}
 </div>
 
