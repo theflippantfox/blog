@@ -15,14 +15,7 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: '404.html'
-		}),
-		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-		},
+		adapter: adapter(),
 		prerender: {
 			entries: ['*']
 		}
